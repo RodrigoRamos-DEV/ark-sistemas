@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Contact = () => {
-  const whatsappNumber = "5522988472248"; // Coloque seu número com código do país
+  const whatsappNumber = "5521973047049"; // Coloque seu número com código do país
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent("Olá! Gostaria de saber mais sobre o Sistema ARK.")}`;
 
   return (

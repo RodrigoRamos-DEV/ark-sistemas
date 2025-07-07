@@ -1,5 +1,5 @@
 import React from 'react';
-import RollingGallery from './RollingGallery';
+import SlidingCarousel from './SlidingCarousel';
 
 
 
@@ -15,7 +15,7 @@ const Hero = () => {
         <p className="hero-subtitle">
           Transforme seus dados em decisões inteligentes. O Sistema ARK organiza suas finanças para você focar no que realmente importa: o crescimento.
         </p>
-        <RollingGallery />
+        <SlidingCarousel />
       </div>
     </section>
   );
