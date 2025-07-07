@@ -1,38 +1,204 @@
+/* Importando uma fonte moderna do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
+:root {
+  --cor-primaria: #6d28d9;
+  --cor-destaque: #8b5cf6;
+  --cor-fundo: #f9fafb;
+  --cor-fundo-escuro: #111827;
+  --cor-texto-claro: #f9fafb;
+  --cor-texto-escuro: #1f2937;
+  --cor-texto-cinza: #6b7280;
+}
+
+/* Reset Básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto-escuro);
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Estilos da Barra de Navegação */
+.navbar {
+  background-color: var(--cor-fundo);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 45px;
+}
+
+.navbar-button {
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto-claro);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.navbar-button:hover {
+  background-color: var(--cor-destaque);
+}
+
+/* Estilos da Seção Hero */
+.hero {
+  background-color: var(--cor-fundo);
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.hero-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 1.125rem;
+  color: var(--cor-texto-cinza);
+  margin-top: 1.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto-claro);
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.hero-button:hover {
+  background-color: var(--cor-destaque);
+  transform: translateY(-3px);
+}
+
+/* Estilos da Seção de Funcionalidades */
+.features {
+  background-color: #ffffff;
+  padding: 6rem 2rem;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.feature-card {
+  background-color: var(--cor-fundo);
+  padding: 2rem;
+  border-radius: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.feature-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.feature-card p {
+  color: var(--cor-texto-cinza);
+  line-height: 1.6;
+}
+
+/* Estilos da Seção de Contato (Rodapé) */
+.contact {
+  background-color: var(--cor-fundo-escuro);
+  color: var(--cor-texto-claro);
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact .section-title {
+  color: var(--cor-texto-claro);
+}
+
+.contact p {
+  color: #d1d5db;
+  font-size: 1.125rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-button {
+  display: inline-block;
+  background-color: var(--cor-primaria);
+  color: var(--cor-texto-claro);
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 700;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.contact-button:hover {
+  background-color: var(--cor-destaque);
+  transform: translateY(-3px);
+}
+
+.footer-text {
+  margin-top: 4rem;
+  color: var(--cor-texto-cinza);
+  font-size: 0.875rem;
 }
