@@ -11,10 +11,10 @@ const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero-container">
-        <h1 className="hero-title">A gestão do seu negócio, simplificada.</h1>
-        <p className="hero-subtitle">
-          Transforme seus dados em decisões inteligentes. O Sistema ARK organiza suas finanças para você focar no que realmente importa: o crescimento.
-        </p>
+        <h1 className="hero-title">Menos planilhas, mais lucro.</h1>
+<p className="hero-subtitle">
+  O Sistema ARK automatiza a gestão do seu negócio para que você possa focar no que realmente importa: o crescimento.
+</p>
         <SlidingCarousel />
       </div>
     </section>

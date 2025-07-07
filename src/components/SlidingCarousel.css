@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  background: #000;
+  
   font-family:
     Helvetica Neue,
     Helvetica,
@@ -35,4 +35,59 @@ body {
 .swiper-slide img {
   display: block;
   width: 100%;
+}
+/* Adicione estas regras ao final do seu CSS */
+
+
+/* Apague as regras .swiper-video-overlay e .video-slide que adicionámos antes */
+/* E adicione estas novas regras no final do ficheiro */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  cursor: pointer;
+}
+
+.slide-video,
+.poster-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.video-poster {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-button-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.video-poster:hover .play-button-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.play-button-icon {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 35px; /* Formato de triângulo (play) */
+  border-color: transparent transparent transparent white;
+  margin-left: 5px; /* Ajuste para centralizar o triângulo */
 }

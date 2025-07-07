@@ -3,20 +3,20 @@ import React from 'react';
 // Você pode adicionar mais funcionalidades aqui no futuro
 const featuresList = [
   {
-    title: 'Lançamentos Rápidos',
-    description: 'Registre vendas e gastos em segundos com nosso preenchimento automático inteligente.'
+    title: 'Lançamentos em Segundos',
+    description: 'Deixe o preenchimento automático inteligente fazer o trabalho pesado. Menos tempo com burocracia, mais tempo vendendo.'
   },
    {
-    title: 'Fechamento de Notas',
-    description: 'Registre vendas e gastos em segundos com nosso preenchimento automático inteligente.'
+    title: 'Fechamento de Caixa Simplificado',
+    description: 'Termine o dia sem stress. Gere relatórios de fechamento de forma automática e evite erros manuais.'
   },
   {
-    title: 'Controle Financeiro Visual',
-    description: 'Visualize seus ganhos, gastos e saldo com gráficos claros e relatórios detalhados.'
+    title: 'Finanças sob Controlo',
+    description: 'Entenda para onde vai o seu dinheiro com gráficos visuais e relatórios que fazem sentido.'
   },
   {
-    title: 'Modo Escuro',
-    description: 'Trabalhe com mais conforto visual em qualquer ambiente com o novo tema escuro.'
+    title: 'Conforto Visual',
+    description: 'Trabalhe a qualquer hora do dia (ou da noite) com um tema escuro elegante e confortável para os olhos.'
   }
 ];
 
