@@ -77,19 +77,22 @@ export default function App() {
       >
         {/* Slides de imagem */}
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dnm2ogmrp/image/upload/v1751912421/tela1_dka8ls.png" />
+          <img src="https://res.cloudinary.com/dnm2ogmrp/image/upload/v1755542536/opera_k8Yd6JV4GP_o6qygq.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dnm2ogmrp/image/upload/v1751912421/tela2_ianoua.png" />
+          <img src="https://res.cloudinary.com/dnm2ogmrp/image/upload/v1755542631/opera_WkN0SOlGiH_ffgulz.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dnm2ogmrp/image/upload/v1751912421/tela3_lg6ny6.png" />
+          <img src="https://res.cloudinary.com/dnm2ogmrp/image/upload/v1755542536/opera_P1tXK1OvIV_dvcgac.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dnm2ogmrp/image/upload/v1751912421/tela4_stzh9g.png" />
+          <img src="https://res.cloudinary.com/dnm2ogmrp/image/upload/v1755542536/opera_cTRm7xSxXw_n8r0kj.png" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://res.cloudinary.com/dnm2ogmrp/image/upload/v1751912422/tela5_qiseyk.png" />
+          <img src="https://res.cloudinary.com/dnm2ogmrp/image/upload/v1755542535/opera_3U7sAULIaO_i8js4j.png" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="https://res.cloudinary.com/dnm2ogmrp/image/upload/v1755542536/opera_WvIaF5OUvS_edgxge.png" />
         </SwiperSlide>
 
         {/* VÍDEO COMO ÚLTIMO SLIDE - COM LÓGICA DE PLAY */}
