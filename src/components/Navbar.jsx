@@ -10,7 +10,7 @@ const Navbar = () => {
           <a href="#contato" className="navbar-button">
             Fale Conosco
           </a>
-          <a href="https://ark-pro-app.onrender.com" className="navbar-button">
+          <a href="https://sistema.arksistemas.com.br" className="navbar-button">
             Acesso ao Sistema
           </a>
         </div>
