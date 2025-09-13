@@ -5,6 +5,7 @@ import './App.css'; // Importa o nosso estilo
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import WhatsAppSupport from './components/WhatsAppSupport';
 
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <Pricing />
       </main>
       <Contact />
       <WhatsAppSupport />

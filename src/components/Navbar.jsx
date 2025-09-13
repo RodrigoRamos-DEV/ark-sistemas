@@ -5,8 +5,13 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <img src={logo} alt="ARK Sistemas Logo" className="navbar-logo" />
+        <a href="#">
+          <img src={logo} alt="ARK Sistemas Logo" className="navbar-logo" />
+        </a>
         <div className="navbar-links">
+          <a href="#planos" className="navbar-button">
+            Planos
+          </a>
           <a href="#contato" className="navbar-button">
             Fale Conosco
           </a>
